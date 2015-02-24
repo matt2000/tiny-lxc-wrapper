@@ -8,3 +8,6 @@ lxc-something -n foo --more 'arguments'
 ... you can do:
 
 lxc something foo --more 'arguments'
+
+
+@todo Tab completion.
