@@ -1,0 +1,10 @@
+Tiny LXC Wrappper
+================
+
+Put this in /usr/bin and then, instead of:
+
+lxc-something -n foo --more 'arguments'
+
+... you can do:
+
+lxc something foo --more 'arguments'
