@@ -1,0 +1,17 @@
+#!/bin/bash
+
+subcommand=$1
+shift
+
+name=$1
+shift
+
+while [ $# -gt 0 ]
+do 
+  args=$args' '$1
+  shift
+done
+
+cmd="lxc-$subcommand -n $name $args"
+echo $cmd
+$cmd
